@@ -60,10 +60,10 @@ public class Tasks {
 	public static void fourthTask() {
 		System.out.println("Answer fourthTask: ");
 
-		double p = 1;
+		long p = 1;
 
 		for (int i = 1; i <= 200; i++) {
-			p = p * pow(i, 2);
+			p = (long) (p * pow(i, 2));
 		}
 
 		System.out.println("Произведение квадратов первых двухсот чисел равно: " + p);
